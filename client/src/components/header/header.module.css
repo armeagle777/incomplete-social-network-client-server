@@ -1,0 +1,19 @@
+.header{
+    background: #e44d3a;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.headerContainer{
+    width: 57%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.header img{
+    height: 30px;
+}

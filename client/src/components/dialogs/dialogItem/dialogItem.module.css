@@ -1,0 +1,46 @@
+ .active {
+    color: goldenrod;
+}
+
+.dialog {
+    padding: 15px;
+    border-bottom: 1px solid #eeeeee;
+}  
+.dialog:hover{
+    background: #eee;
+}
+.dialog a{
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.dialogPhoto{
+    width: 15%;
+}
+.dialogPhoto img{
+    width: 40px;
+    border-radius: 50%;
+}
+.dialogPerson{
+    width: 70%;
+    color: #000;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.dialogInfo{
+    text-align: center;
+    width: 15%;
+    color: #999;
+}
+.newMessage{
+    background: #e44d3a;
+    color: #fff;
+    font-size: 8px;
+    padding: 5px 10px;
+    border-radius: 50%;
+
+}

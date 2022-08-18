@@ -1,0 +1,142 @@
+.content{
+    display: grid;
+    grid-template-columns: 260px auto 260px;
+    grid-gap: 30px;
+    min-height: 90vh;
+}
+.left{
+
+}
+.middle{
+
+}
+.right{
+    outline: 3px solid red;
+}
+.profileInfo{
+    background: #8a8585;
+    box-shadow: -1px 0 2px #999;
+    margin-bottom: 20px;
+}
+.title{
+    background: #e44d3a;
+    height: 100px;
+    position: relative;
+}
+.selfPhoto img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    position: absolute;
+    bottom: -50px;
+    left: 80px;
+}
+.personalInfo{
+    padding: 60px 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    margin-bottom: 1px;
+}
+.nameInfo{
+    font-weight: bold;
+    font-size: 20px;
+}
+.job{
+    margin-top: 5px;
+    font-size: 12px;
+    font-style: italic;
+}
+.following{
+    background: #fff;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1px;
+    font-size: 16px;
+}
+.followers{
+    background: #ffffff;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1px;
+    font-size: 16px;
+}
+.viewButton{
+    padding: 10px 0;
+    background: #fff;
+    text-align: center;
+}
+.viewButton button {
+    background: none;
+    outline: none;
+    border: none;
+    color: #D35945;
+    font-weight: bold;
+}
+.suggestions{
+    box-shadow: -1px 0 2px #999;
+    background: #fff;
+
+}
+.suggestionTitle{
+    background: #fff;
+    padding: 20px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #999;
+}
+.suggestionTitle button {
+    background: none;
+    outline: none;
+    border: none;
+}
+.friendItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+.photo{
+
+}
+.photo img{
+    width: 35px;
+    border-radius: 50%;
+}
+.friendItem .name{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    color: #000;
+}
+.fname{
+    color: #000;
+    font-weight: 500;
+}
+.profession{
+    color: #888;
+}
+.plus button{
+    outline: 1px solid black;
+    padding: 7px;
+    background: none;
+    outline: 1px solid grey;
+    color: grey;
+    border: none;
+}
+.plus button:hover{
+    background: #e44d3a;
+    color: #fff;
+    border: none;
+    outline: none;
+}

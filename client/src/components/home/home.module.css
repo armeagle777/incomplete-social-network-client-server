@@ -1,0 +1,22 @@
+.homePageContainer{
+    display: grid;
+    grid-template-areas: "header header"
+                         "left content";
+    grid-template-rows: 200px auto;
+    grid-template-columns: 2fr 10fr;
+}
+.left{
+    outline: 1px solid red;
+    grid-area: left;
+}
+.content{
+    outline: 1px solid green;
+    grid-area: content;
+}
+.homeHeader{
+    grid-area: header;
+    overflow: hidden;
+}
+.homeHeader img {
+    width: 100%;
+}

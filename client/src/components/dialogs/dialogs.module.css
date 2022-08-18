@@ -1,0 +1,91 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+    background: #fff;
+    border: 1px solid #eee;
+    max-height: 800px;
+}
+
+.dialogs_items {
+    overflow: scroll;
+    overflow-x: hidden;
+    max-height: 800px;
+}
+
+.oldMessages {
+    padding: 10px;
+}
+
+.newMessage {
+    padding: 30px 20px 40px;
+    background: #f3f5f7;
+}
+
+.Sendbutton {
+    background: #e44d3a;
+    color: #fff;
+    padding: 10px 25px;
+    outline: none;
+    border: none;
+}
+
+.Sendbutton:hover {
+    background: #fff;
+    outline: 1px solid #e44d3a;
+    color: #333;
+}
+
+.newMessage input {
+    width: 550px;
+    outline: 1px solid #eee;
+    padding: 10px;
+    margin-right: 15px;
+    border: 1px solid #eee;
+}
+
+.messages {
+    border-left: 1px solid #eeeeee;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.message {
+
+}
+.oldMessages{
+    scroll-behavior: smooth;
+    max-height: 600px;
+    overflow: scroll;
+    padding-bottom:  10px;
+}
+.received {
+    margin: 10px 0;
+    text-align: left;
+    max-width: 50%;
+}
+
+.received p {
+    background: #eee;
+    padding: 15px;
+    border-radius: 10px;
+    display: inline-block;
+
+}
+
+.sent {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 10px 0;
+}
+
+.sent p {
+    background: #e44d3a;
+    border-radius: 10px;
+    color: #fff;
+    padding: 15px;
+    max-width: 50%;
+    text-align: center;
+
+}

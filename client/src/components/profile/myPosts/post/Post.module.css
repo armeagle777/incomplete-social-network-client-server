@@ -1,0 +1,25 @@
+.item{
+    margin-top: 10px;
+    background: #fff;
+    padding: 10px;
+}
+.item img{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    margin-right: 5px;
+}
+.likeButton{
+    background: none;
+    outline: none;
+    border: none;
+    color: #999;
+}
+.likeButton:hover{
+    color: #e44d3a;
+}
+.buttonLine{
+    margin-top: 10px;
+    padding-top:  5px;
+    border-top: 1px solid #999;
+}
